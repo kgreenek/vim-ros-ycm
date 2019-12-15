@@ -6,7 +6,7 @@ import subprocess
 import rospkg
 import ycm_core
 
-LOGGER = logging.getLogger('ycm_extra_conf')
+LOGGER = logging.getLogger('vim-ros-ycm')
 SOURCE_EXTENSIONS = ['.cpp', '.cxx', '.cc', '.c', '.m', '.mm']
 LAST_CWD = None
 ROS_WORKSPACE = None
