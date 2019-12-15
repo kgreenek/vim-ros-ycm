@@ -11,6 +11,9 @@ Auto-completion, error checking, and all the other features of YouCompleteMe wor
 This plugin uses [catkin-tools](https://catkin-tools.readthedocs.io/en/latest/) (i.e. the `catkin`
 command). It does not currently support catkin_make or catkin_make_isolated.
 
+It currently enables YouCompleteMe with only C++ packages. Python support is something I would like
+to add in the future though.
+
 ## System setup
 
 If you haven't already, install ros.
