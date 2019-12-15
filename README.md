@@ -77,15 +77,15 @@ you're currently editing in order to find the extra conf settings.
 
 ## The easy way
 
-The [catkin_config.sh](catkin_setup.sh) script runs the `catkin config` command and copies the
+The [catkin_config.sh](catkin_config.sh) script runs the `catkin config` command and copies the
 `.ycm_extra_conf.py` file to the root of your workspace. Simply run it from within your workspace.
 
 ```bash
 cd ~/catkin_ws
-/path/to/vim-ros-ycm/catkin_setup.sh --install
+/path/to/vim-ros-ycm/catkin_config.sh --install
 ```
 
 The `--install` flag and any other flags you provide are all passed to the call to `catkin config`.
 
-If you prefer, you can also copy the catkin_setup.sh and .ycm_extra_conf.py scripts to your package
+If you prefer, you can also copy the catkin_config.sh and .ycm_extra_conf.py scripts to your package
 and check it into your repo.
