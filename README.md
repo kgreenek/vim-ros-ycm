@@ -46,7 +46,7 @@ Of course, replace `~/catkin_ws` with the path to your workspace, and replace `m
 version of ROS.
 
 You only need to run the catkin config command once. After that, every time you run `catkin build`,
-the compilation database files will be updated automtically.
+the compilation database files will be updated automatically.
 
 ## How to use
 
