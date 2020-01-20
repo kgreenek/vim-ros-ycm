@@ -38,7 +38,7 @@ following commands.
 cd ~/catkin_ws
 source /opt/ros/melodic/setup.sh
 catkin clean -y
-catkin config --install "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON"
+catkin config --install -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 catkin build
 ```
 
