@@ -96,7 +96,8 @@ def UpdateRosWorkspace():
         ROS_WORKSPACE_FLAGS = None
         try:
             ROS_WORKSPACE = subprocess.check_output(['catkin', 'locate'],
-                                                    stderr=subprocess.STDOUT).strip()
+                                                    stderr=subprocess.STDOUT,
+                                                    universal_newlines=True).strip()
         except subprocess.CalledProcessError as e:
             if e.returncode == 1:
                 LOGGER.info('catkin locate error: %s', result.output)
